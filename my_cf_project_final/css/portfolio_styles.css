@@ -1,0 +1,109 @@
+.nav ul li{
+	display: inline;
+	padding: 20px 30px 11px;
+	height: 20px;
+}
+
+.nav{
+	background-color: black;
+	position: fixed;
+	width:100%;
+	height: 40px;
+	margin-top: 0px;
+	padding-top: 20px;
+	border-top: 0px;
+}
+
+.nav ul li a{
+	color:white;
+	text-transform: Uppercase;
+	letter-spacing: 0.05em;
+	-webkit-transition: color 600ms;
+}
+
+.nav ul li:hover { 
+	background-color: #DCA459;
+	text-decoration: none;
+}
+
+.nav ul li a:hover{
+	text-decoration: none;
+}
+.nav ul{
+	float: right;
+	padding-right: 100px;
+	padding-top: 0px;
+	margin-top: -10px;
+	border-top: 0px;
+}
+
+body{
+	margin-top: 0px;
+
+}
+.row >.col-xs-6{
+	padding-right: 15px;
+	padding-bottom: 25px;
+}
+.row >.col-md-4{
+	padding-right: 15px;
+	padding-bottom: 25px;
+}
+
+
+.Header{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+	.img-responsive{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		background-color: blue;
+	} 
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.img-responsive{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		background-color: yellow;
+	} 
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	.img-responsive{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		background-color: red;
+	} 
+ }
+ 
+/* Landscape phones and down */
+/*@media (max-width: 480px) { 
+	.img-responsive{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		background-color: green;
+	} 
+}*/
+
+@media only screen
+and (min-device-width: 320px) 
+ and (max-device-width: 568px)
+  and (orientation: landscape) {
+  	.img-responsive{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		background-color: green;
+	} 
+}

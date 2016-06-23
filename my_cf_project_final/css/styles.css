@@ -213,9 +213,17 @@ th{
 	border: 2px solid pink;
 	width: 200px;
 	height:200px;
-	margin: 5px;
+	margin: 150px 5px 150px 150px;
+	padding: 0px;
 	display: inline-block;
 	position: relative;
+	text-align: center;
+}
+
+.work-example{
+	position: absolute;
+	width: 500px;
+	height: 500px;
 }
 
 .info{
@@ -244,6 +252,7 @@ footer{
 footer a{
 	float:left;
 }
+
 
 #socialmedia .twitter {
 	margin-left: 15px;

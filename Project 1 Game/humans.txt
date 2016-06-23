@@ -1,0 +1,14 @@
+/* TEAM */
+Your title: General Assembly WDI
+Site: webdevleah@gmail.com
+Twitter: MIA2CHI
+Location: Chicago, IL
+
+/* THANKS */
+Name: Leah Nelson
+
+/* SITE */
+Last update: 2016/06/20 
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, Bootstrap
+Software: Software used for the development

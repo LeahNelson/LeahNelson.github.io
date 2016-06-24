@@ -1,0 +1,55 @@
+header{
+	margin: auto;
+	text-align: center;
+	
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+}
+.thumbnail{
+	background: url('../img/skyBackground.jpg');
+}
+
+.battle-container{
+  display: none;
+}
+
+.row{
+  display: inline;
+ 
+}
+
+.col-sm-6{
+	width: 50%;
+}
+
+#choose-container {
+	background: url('../img/skyBackground.jpg');
+}
+
+#CompChooseModal{
+	background: url('../img/skyBackground.jpg');
+}
+.battle-container {
+	background: url('../img/skyBackground.jpg');
+}
+
+#winner{
+	background: url('../img/skyBackground.jpg');
+}
+h1{
+	font-weight: bold;
+	font-color: #FFFAF0;
+}
+#atk-btn{
+	height: 50px;
+	width: 100px;
+}
+
+#def-btn{
+	height: 50px;
+	width: 100px;
+}

@@ -10,7 +10,7 @@ header{
 	text-align: center;
 }
 .thumbnail{
-	background: url('../img/stormBackground.jpg');
+	background: url('../img/skyBackground.jpg');
 }
 
 .battle-container{
@@ -27,18 +27,18 @@ header{
 }
 
 #choose-container {
-	background: url('../img/stormBackground.jpg');
+	background: url('../img/skyBackground.jpg');
 }
 
 #CompChooseModal{
-	background: url('../img/stormBackground.jpg');
+	background: url('../img/skyBackground.jpg');
 }
 .battle-container {
-	background: url('../img/stormBackground.jpg');
+	background: url('../img/skyBackground.jpg');
 }
 
 #winner{
-	background: url('../img/stormBackground.jpg');
+	background: url('../img/skyBackground.jpg');
 }
 h1{
 	font-weight: bold;

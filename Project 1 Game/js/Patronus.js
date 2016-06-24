@@ -22,7 +22,7 @@ health: 3,
 };
 
 var otter = {
-name: 'otter',
+name: 'Otter',
 img:  'img/otterPatronus.jpg',
 life: 1,
 health: 3,
@@ -30,7 +30,7 @@ health: 3,
 };
 
 var phoenix = {
-name: 'phoenix',
+name: 'Phoenix',
 img:  'img/phoenixPatronus.jpg',
 life: 1,
 health: 3,
@@ -38,7 +38,7 @@ health: 3,
 };
 
 var doe = {
-name: 'doe',
+name: 'Doe',
 img:  'img/doePatronus.jpg',
 life: 1,
 health: 3,
@@ -46,7 +46,7 @@ health: 3,
 };
 
 var dog = {
-name: 'dog',
+name: 'Dog',
 img:  'img/dogPatronus.jpg',
 life: 1,
 health: 3,
@@ -113,7 +113,7 @@ $('#phoenix-btn').click(function(){
   return(player);
   });
 
-$('doe-btn').click(function(){
+$('#doe-btn').click(function(){
   
   $('#stag').hide();
   $('#cat').hide();
@@ -126,7 +126,7 @@ $('doe-btn').click(function(){
   return(player);
   });
 
-$('dog-btn').click(function(){
+$('#dog-btn').click(function(){
   
   $('#stag').hide();
   $('#cat').hide();
@@ -240,7 +240,7 @@ function attackOpp(){
   console.log(effect);
   computer.health = computer.health + effect;
   console.log(computer.health);
-  $("#oppHealth").html("<p> Health = "+computer.health+"</p>");
+  $("#oppHealth").html("<h1> Health = "+computer.health+"</h1>");
 }
 
 function attackPlayer(){
@@ -248,7 +248,7 @@ function attackPlayer(){
   console.log(effect);
   player.health = player.health + effect;
   console.log(player.health);
-  $("#playerHealth").html("<p> Health = "+player.health+"</p>");
+  $("#playerHealth").html("<h1> Health = "+player.health+"</h1>");
 
 }
 
@@ -257,7 +257,7 @@ function defendOpp(){
   console.log(effect);
   computer.health = computer.health + effect;
   console.log(computer.health);
-  $("#oppHealth").html("<p> Health = "+computer.health+"</p>");
+  $("#oppHealth").html("<h1> Health = "+computer.health+"</h1>");
 
 }
 
@@ -266,7 +266,7 @@ function defendPlayer(){
   console.log(effect);
   player.health = player.health + effect;
   console.log(player.health);
-  $("#playerHealth").html("<p> Health = "+player.health+"</p>");
+  $("#playerHealth").html("<h1> Health = "+player.health+"</h1>");
 
 }
 
@@ -337,8 +337,8 @@ $('#atk-btn').click(function(){
   $('#compMove').modal('show');
   compDead();
   playerDead();
-  $("#oppLife").html("<p> Life = "+computer.life+"</p>");
-  $("#playerLife").html("<p> Life = "+player.life+"</p>");  
+  $("#oppLife").html("<h1> Life = "+computer.life+"</h1>");
+  $("#playerLife").html("<h1> Life = "+player.life+"</h1>");  
   
 
   
@@ -354,8 +354,8 @@ $('#def-btn').click(function(){
   $('#compMove').modal('show');
   compDead();
   playerDead();
-  $("#oppLife").html("<p> Life = "+computer.life+"</p>");
-  $("#playerLife").html("<p> Life = "+player.life+"</p>");  
+  $("#oppLife").html("<h1> Life = "+computer.life+"</h1>");
+  $("#playerLife").html("<h1> Life = "+player.life+"</h1>");  
  
 
   

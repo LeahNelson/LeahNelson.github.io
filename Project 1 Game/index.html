@@ -31,9 +31,9 @@
     <!-- <video autoplayloop> -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/34Rit1AnlVg?autoplay=1&loop=1&playlist=GRonxog5mbw" frameborder="0"></iframe>
   <!-- </video> -->
-    <div class="row" id="stag">
+    <div class="row" >
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
+        <div class="thumbnail" id="stag">
           <img src="img/Stagpatronus.jpg" alt="Stag Patronus">
           <div class="caption">
             <h3>Harry Potter's Patronus</h3>
@@ -44,7 +44,7 @@
         </div>
       </div>
        <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
+        <div class="thumbnail" id="cat">
           <img src="img/catPatronus.jpg" alt="Cat Patronus">
           <div class="caption">
             <h3>Minerva McGonagull's Patronus</h3>
@@ -56,9 +56,9 @@
       </div>
     </div>
     
-    <div class="row" id="otter">
+    <div class="row" >
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
+        <div class="thumbnail" id="otter">
           <img src="img/otterPatronus.jpg" alt="Otter Partronus">
           <div class="caption">
             <h3>Hermione Granger's Patronus</h3>
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
+        <div class="thumbnail" id="phoenix">
           <img src="img/phoenixPatronus.jpg" alt="Phoenix Partronus">
           <div class="caption">
             <h3>Albus Dunbledore's Patronus</h3>
@@ -79,9 +79,9 @@
       </div>
     </div>
     
-    <div class="row" id="doe">
+    <div class="row" >
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
+        <div class="thumbnail" id="doe">
           <img src="img/doePatronus.jpg" alt="Doe Partronus">
           <div class="caption">
             <h3>Severus Snape's Patronus</h3>
@@ -91,7 +91,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
+        <div class="thumbnail" id="dog">
           <img src="img/dogPatronus.jpg" alt="dog Partronus">
           <div class="caption">
             <h3>Ron Weasley's Patronus</h3>
@@ -103,7 +103,7 @@
     </div>     
   </main>
 
-  <div  class="container" id= "CompCooseModal">  
+  <div  class="container" id= "CompChooseModal">  
    <!-- Modal Button to initiate computer choose -->
     <div class="row modal-button">
       <button type="button" class="btn btn-primary btn-lg" id="getOpp" data-toggle="modal" data-target="#compChoice">Get Opponent</button>
@@ -132,18 +132,18 @@
   <div class="battle-container container">
     <p></p>
     <div class="playerDiv">
-       Current Player Patronus info to populate here 
-      <p id="playerLife">Life  </p>
-      <p id="playerHealth">Health  </p>
+       <!-- Current Player Patronus info to populate here  -->
+      <h1 id="playerLife">Life  </h1>
+      <h1 id="playerHealth">Health  </h1>
     </div>
     <div class="battle-btns">
-      <p><a href="#" class="btn btn-primary" id="atk-btn" role="button" value="cat">Attack</a> 
-      <p><a href="#" class="btn btn-primary" id="def-btn" role="button" value="cat">Defend</a> 
+      <h4><a href="#" class="btn btn-primary" id="atk-btn" role="button" value="cat">Attack</a> 
+      <h4><a href="#" class="btn btn-primary" id="def-btn" role="button" value="cat">Defend</a> 
     </div>
     <div class="oppDiv">
-      Current Computer Patronus info to populate here
-      <p id="oppLife">Life  </p>
-      <p id="oppHealth">Health </p>
+      <!-- Current Computer Patronus info to populate here -->
+      <h1 id="oppLife">Life  </h1>
+      <h1 id="oppHealth">Health </h1>
      </div> 
   </div>
     <!-- <div class="row modal-button"> -->
@@ -169,7 +169,7 @@
   <!-- Show Winner Div  -->
   <div hidden class="container" id="winner" >
     <h1 id="declare-winner">THE WINNER IS...!</h1>
-    <button type="button" class="btn btn-primary btn-lg" id="new-game" data-toggle="modal" data-target="#compChoice">New Game</button> 
+    <button type="button" class="btn btn-primary btn-lg" id="new-game">New Game</button> 
   </div>  
 
   

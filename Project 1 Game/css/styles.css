@@ -5,7 +5,7 @@ header{
 }
 
 .container{
-	width: 1400px;
+	width: 1200px;
 	margin: auto;
 	text-align: center;
 }
@@ -28,4 +28,28 @@ header{
 
 #choose-container {
 	background: url('../img/stormBackground.jpg');
+}
+
+#CompChooseModal{
+	background: url('../img/stormBackground.jpg');
+}
+.battle-container {
+	background: url('../img/stormBackground.jpg');
+}
+
+#winner{
+	background: url('../img/stormBackground.jpg');
+}
+h1{
+	font-weight: bold;
+	font-color: #FFFAF0;
+}
+#atk-btn{
+	height: 50px;
+	width: 100px;
+}
+
+#def-btn{
+	height: 50px;
+	width: 100px;
 }

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Battle Patronus</title>
+  <meta name="Battle Patronus" content="" />
+  <meta name="Leah Nelson" content="" />
+  <link rel="author" href="/humans.txt" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- process:css css/style.css -->
+  
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+  <!-- <link rel="stylesheet" href="vendor/normalize-css/normalize.css" /> -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- /process -->
+
+  <!--[if lt IE 9]>
+  <script src="vendor/html5shiv/dist/html5shiv.min.js"></script>
+  <script src="vendor/respond/dest/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<header><h1>Battle Patronus</h1></header>
+  <main class="container" id="choose-container">
+    <!-- <video autoplayloop> -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/34Rit1AnlVg?autoplay=1&loop=1&playlist=GRonxog5mbw" frameborder="0"></iframe>
+  <!-- </video> -->
+    <div class="row" >
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail" id="stag">
+          <img src="img/Stagpatronus.jpg" alt="Stag Patronus">
+          <div class="caption">
+            <h3>Harry Potter's Patronus</h3>
+            <h2>STAG</h2>
+            <p>Description of Patronus features will go here</p>
+            <p><a href="#" class="btn btn-primary" id="stag-btn" role="button" >Choose</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-sm-6 col-md-4">
+        <div class="thumbnail" id="cat">
+          <img src="img/catPatronus.jpg" alt="Cat Patronus">
+          <div class="caption">
+            <h3>Minerva McGonagull's Patronus</h3>
+            <h2>CAT</h2>
+            <p>Description of Patronus features go here</p>
+            <p><a href="#" class="btn btn-primary" id="cat-btn" role="button" >Choose</a> 
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row" >
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail" id="otter">
+          <img src="img/otterPatronus.jpg" alt="Otter Partronus">
+          <div class="caption">
+            <h3>Hermione Granger's Patronus</h3>
+            <h2>OTTER</h2>
+            <p><a href="#" class="btn btn-primary" id="otter-btn" role="button">Choose</a> 
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail" id="phoenix">
+          <img src="img/phoenixPatronus.jpg" alt="Phoenix Partronus">
+          <div class="caption">
+            <h3>Albus Dunbledore's Patronus</h3>
+            <h2>PHOENIX</h2>
+            <p><a href="#" class="btn btn-primary" id="phoenix-btn" role="button">Choose</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row" >
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail" id="doe">
+          <img src="img/doePatronus.jpg" alt="Doe Partronus">
+          <div class="caption">
+            <h3>Severus Snape's Patronus</h3>
+            <h2>DOE</h2>
+            <p><a href="#" class="btn btn-primary" id="doe-btn" role="button">Choose</a> 
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail" id="dog">
+          <img src="img/dogPatronus.jpg" alt="dog Partronus">
+          <div class="caption">
+            <h3>Ron Weasley's Patronus</h3>
+            <h2>DOG</h2>
+            <p><a href="#" class="btn btn-primary" id="dog-btn" role="button">Choose</a> 
+          </div>
+        </div>
+      </div>
+    </div>     
+  </main>
+
+  <div  class="container" id= "CompChooseModal">  
+   <!-- Modal Button to initiate computer choose -->
+    <div class="row modal-button">
+      <button type="button" class="btn btn-primary btn-lg" id="getOpp" data-toggle="modal" data-target="#compChoice">Get Opponent</button>
+    </div>
+      <!-- Modal -->
+    <div class="modal fade" id="compChoice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" data-keyboard="false">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Your Opponent</h4>  
+          </div>
+          <div class="modal-body">
+              <!-- Insert Body Content Here -->
+              <!-- Create single thumbnail of Computer Choice  -->
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="play-btn" class="btn btn-default" data-dismiss="modal">Play Game</button>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+  <!-- Battle Container Div  -->
+  <div class="battle-container container">
+    <p></p>
+    <div class="playerDiv">
+       <!-- Current Player Patronus info to populate here  -->
+      <h1 id="playerLife">Life  </h1>
+      <h1 id="playerHealth">Health  </h1>
+    </div>
+    <div class="battle-btns">
+      <h4><a href="#" class="btn btn-primary" id="atk-btn" role="button" value="cat">Attack</a> 
+      <h4><a href="#" class="btn btn-primary" id="def-btn" role="button" value="cat">Defend</a> 
+    </div>
+    <div class="oppDiv">
+      <!-- Current Computer Patronus info to populate here -->
+      <h1 id="oppLife">Life  </h1>
+      <h1 id="oppHealth">Health </h1>
+     </div> 
+  </div>
+    <!-- <div class="row modal-button"> -->
+       <!-- <button type="button" class="btn btn-primary btn-lg" id="getOpp" data-toggle="modal" data-target="#compChoice">Get Opponent</button> -->
+    <!-- </div> -->
+      <!-- Modal Computer Moves -->
+    <div class="modal fade" id="compMove" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-toggle="modal" data-target="compMove" data-backdrop="false" data-keyboard="false" >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="compMoveLabel">Your Opponent is making a move</h4>  
+          </div>
+          <div class="modal-body" id="show-Comp-Move">
+              <!-- Insert Body Content Here    -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="continue-btn" class="btn btn-default" data-dismiss="modal">Continue</button>
+          </div>
+        </div>   
+      </div>
+    </div>
+  <!-- Show Winner Div  -->
+  <div hidden class="container" id="winner" >
+    <h1 id="declare-winner">THE WINNER IS...!</h1>
+    <button type="button" class="btn btn-primary btn-lg" id="new-game">New Game</button> 
+  </div>  
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/Patronus.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- /process -->
+
+</body>
+</html>

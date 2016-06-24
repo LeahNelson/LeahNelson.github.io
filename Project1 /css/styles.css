@@ -1,0 +1,55 @@
+header{
+	margin: auto;
+	text-align: center;
+	
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+}
+.thumbnail{
+	background: url('../img/stormBackground.jpg');
+}
+
+.battle-container{
+  display: none;
+}
+
+.row{
+  display: inline;
+ 
+}
+
+.col-sm-6{
+	width: 50%;
+}
+
+#choose-container {
+	background: url('../img/stormBackground.jpg');
+}
+
+#CompChooseModal{
+	background: url('../img/stormBackground.jpg');
+}
+.battle-container {
+	background: url('../img/stormBackground.jpg');
+}
+
+#winner{
+	background: url('../img/stormBackground.jpg');
+}
+h1{
+	font-weight: bold;
+	font-color: #FFFAF0;
+}
+#atk-btn{
+	height: 50px;
+	width: 100px;
+}
+
+#def-btn{
+	height: 50px;
+	width: 100px;
+}

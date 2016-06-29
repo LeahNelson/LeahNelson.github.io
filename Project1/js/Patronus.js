@@ -1,8 +1,12 @@
 console.log('Hello I am Working!')
 
-// Create Patronus construct function
+// Create Patronus constructer function
 
+// function Taco(taco)
+//   this.taco = taco
+// }
 
+// var taco = new Taco('burrito')
 
 var stag = { 
 name: 'Stag',
@@ -60,15 +64,15 @@ health: 3,
   
   $('#stag-btn').click(function(){
   
-  $('#cat').hide();
-  $('#otter').hide();
-  $('#phoenix').hide();
-  $('#doe').hide();
-  $('#dog').hide();
-  player = Patronus[0];
-  Patronus.splice(0,1)
-  console.log(player);
-  return(player);
+    $('#cat').hide();
+    $('#otter').hide();
+    $('#phoenix').hide();
+    $('#doe').hide();
+    $('#dog').hide();
+    player = Patronus[0];
+    Patronus.splice(0,1)
+    console.log(player);
+    return(player);
 
   });
 
@@ -157,6 +161,7 @@ function randomChoose() {
   };
 
 var computer;
+
 function compChoose(){
   computer = (randomChoose()); 
 

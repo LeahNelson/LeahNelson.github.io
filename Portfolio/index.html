@@ -24,17 +24,17 @@
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     
-     <script>
-      $(function () {
-        $('#item1').tooltip();
-      });
-    </script>
+    //  <script>
+    //   $(function () {
+    //     $('#item1').tooltip();
+    //   });
+    // </script>
 
-    <Script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-      });
-    </script>
+    // <Script>
+    // $(function () {
+    //   $('[data-toggle="tooltip"]').tooltip();
+    //   });
+    // </script>
 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_GuGo39tzdSFX2VHzvfdByqfzLQLxR-U"></script>
 
@@ -128,37 +128,35 @@
 </div>
       
       <div class="row anchor" id="portfolio"> <!--Begin work Contianer-->
-        <div class="col-md-4 col-xs-6">
-          <h2>Portfolio Concept</h2>
-          <p>My portfolio is an example of the variety of web projects I am able to produce, a glowing representation of my skills and will grow and develop in complexity as my Web Developer skills grow. The portfolio will include <a href="#" title="Work Example" id="item1">simple HTML</a> pages and email templates, well designed and intuitive multi-page websites, responsive Ruby web applications, and a personal project that combines all these skills into a sleek application that will make coordinating large scale print and email marketing campaigns  a breeze. With a slick slider at the top of the page highlighting any recent projects, a well laid out contact and about page that state who I am, what I can do, and how to reach me.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4 col-xs-6">
-          <h2>Project Goals</h2>
-          <p> My goals for the project are to commit to 20 hours or more each week in study and to complete each module on a timely basis so it can be reviewed by my mentor each week. I plan to finish the course on time in the 3 months allotted and in the end be comfortable calling myself a web developer.</p>
-          <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project Info"><a> View details &raquo;</a></button></p>
-        </div>
-        <div class="col-md-4 col-xs-6">
-          <h2>Course Goals</h2>
-          <p>The ultimate goal at the end of this course is to get a job as a junior developer with a local company in the Chicago area. The penultimate goal is to develop my skills and eventually be able to freelance, which will allow me to create the ideal work/life balance. This will be a complete career switch for me coming from a sales and marketing background. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div id="work-example">
+         <!-- </div id="work-example">
           </div>
             <div class="image-jav" id="0"></div>
             <div class="image-jav" id="1"></div>
             <div class="image-jav" id="2"></div>
-            <div class="image-jav" id="3"></div>
+            <!-- <div class="image-jav" id="3"></div> --> -->
+            <h1 class="project-title">Recent Projects</h1> 
         </div> 
+        <div class="col-md-4 col-xs-6">
+
+          <h2>Patronus Battle</h2>
+          <p>My first solo project for my Web Development Immersive Bootcamp at General Assembly. It is a simple project written in Vanilla Javascript using Bootstrap for styling. The premise of the single player game is 2 characters from Harry Potter facing off by usiing their Patronus ( protective spirit animal) to battle against each other. the battle continues until someone runs out of lives. </p>
+          <p><a class="btn btn-default" href="#" role="button">View Project &raquo;</a></p>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <h2>Find Your Rep</h2>
+          <p> My first group project for General Assembly is a Ruby application running on Sinatra and Sqlite. The application allows user to locate their Congressman or Senator by entering their address or choosing their state. There is also basic information regarding contacting your representative and their attendance history, or comittees they belong to.</p>
+          <p><a class="btn btn-default" href="#" role="button">View Project &raquo;</a></p>
+
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <h2>Buy Chicago</h2>
+          <p>My final solo project for General Assembly is a Node.js application using MongoDB and the Google maps Javascript API. The purpose of the website is to make it easier to find and get information on property owned by the City of Chicago. The current process involves downloading a vry unhelpful CSV listing of the properties, and then cross referencing with the cook county propert appraisers office. Buy Chicago brings all those resources together in one simple to use interface.  </p>
+          <p><a class="btn btn-default" href="#" role="button">View Project &raquo;</a></p>
+       
       </div> <!--End Work Container-->
 
       <hr>
   <div class="container anchor" id="about"> <!-- Begin about Container-->
-      <div class="header">
-        <h1>Leah Nelson. Web Developer</h1>    
-      </div>
-      <div>
-        <h2 class="learn-more">Learn More</h2>
-      </div>
       <div class="row modal-button">
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Resume/CV</button>
       </div>
@@ -173,7 +171,7 @@
             </div>
             <div class="modal-body">
               <!--Insert Body Content Here-->
-              <iframe class="documentview" src="img/DanielsResume2014.pdf"></iframe>
+              <iframe class="documentview" src="img/Leah Nelson Resume.pdf"></iframe>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -197,60 +195,24 @@
         <ul id="skill-list">
           <li>HTML5/CSS3</li>
           <li>Copy Writer</li>
-          <li>Ruby on Rails </li>
-          <li>Responsive Design</li>
+          <li>Javascript </li>
+          <li>Bootstrap</li>
           <li>Vacation planning ninja</li>
-          <li> Super Hero</li>
+          <li>Node.js</li>
+          <li>MongoDB</li>
+          <li>Sqlite</li>
+          <li>Sinatra</li>
+          <li>Express</li>
+
         </ul>
       </div>
-      <div class="main_text">
-      </div>
-      <!---<table>
-    <tr class="my-row">
-      <th>Services</th>
-      <th>Service 1</th>
-      <th>Service 2</th>
-    </tr>
-
-    <tr class="my-row">
-      <td>Feature 1</td>
-      <td>Property 1</td>
-      <td>Property 2</td>
-    </tr>
-
-    <tr class="my-row">
-      <td>Feature 2</td>
-      <td>Property 1</td>
-      <td>Property 2</td>
-    </tr>
-
-    <tr class="my-row">
-      <td>Feature 3</td>
-      <td>Property 1</td>
-      <td>Property 2</td>
-    </tr>
-
-    <tr class="my-row">
-      <td>Feature 4</td>
-      <td>Property 1</td>
-      <td>Property 2</td>
-    </tr>
-
-    <tr class="my-row">
-      <td>Feature 5</td>
-      <td>Property 1</td>
-      <td>Property 2</td>
-    </tr>
-
-
-
-  </table> ---->
-    </div> <!-- end About container -->    
+      
+  </div> <!-- end About container -->    
 
   <div class="container anchor" id="FAQ"> <!-- Begin FAQ Container-->
       <div class="title">
   <h2>FAQs</h2>
-  <h4>Answers to the Frequently Asked Questions</h4>
+  <h4>Answers to Frequently Asked Questions</h4>
   </div>
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
@@ -277,7 +239,7 @@
     </div>
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="panel-body">
-        The decision to become a Web Developer did not come lightly. After several years of various jobs from bartending, to customer service supervisor for an auto insurance company. I realized that they all had a few things in common, lack of passion on my part, and they were just jobs not a career ( for me anyway.) Web Development is one of the few things that I would learn and experiment with for free, when I realized that I could get paid to play and create I was sold. I formally began my education and training with CareerFoundry in March of 2015 and have never regretted making the choice. 
+        The decision to become a Web Developer did not come lightly. After several years of various jobs from bartending, to customer service supervisor for an auto insurance company. I realized that they all had a few things in common, lack of passion on my part, and they were just jobs not a career ( for me anyway). Web Development is one of the few things that I would learn and experiment with for free, when I realized that I could get paid to play and create I was sold. I formally began my education and training with General Assembly in May of 201 and have never regretted making the choice. 
       </div>
     </div>
   </div>
@@ -355,7 +317,7 @@
     </div> <!-- /container -->
 
     <footer>
-      <div class="copywright"> &copy Leah Nelson  2015</div> 
+      <div class="copywright"> &copy Leah Nelson  2016</div> 
         <div id="socialmedia">
           <div class="Twitter">
             <a href="https://twitter.com/MIA2CHI" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @MIA2CHI</a>

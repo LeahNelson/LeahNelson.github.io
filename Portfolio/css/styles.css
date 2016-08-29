@@ -257,3 +257,13 @@ footer a{
 #socialmedia .twitter {
 	margin-left: 15px;
 }
+
+.project-title{
+	text-align: center;
+}
+
+#about{
+	margin-top: 25px;
+	border-top: 25px;
+
+}

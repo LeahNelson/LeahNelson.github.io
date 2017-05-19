@@ -1,0 +1,13 @@
+
+Leah Nelson
+chiefunicorn@unicornsunlimited.com
+Twitter: @MIA2CHI
+Location: Chicago, IL and Miami, FL
+
+
+
+/* SITE */
+Last update: 2017/05/22 
+Standards: HTML5, CSS3, 
+Components: Bootstrap, jQuery, JavaScript 
+Software: Sublime Text2
